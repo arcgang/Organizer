@@ -13,3 +13,5 @@ for file in files:
     else:
         os.makedirs(path+'/'+extension)
         shutil.move(path+'/'+file, path+'/'+extension+'/'+file)
+
+print(f'Files in {path} are organized into directories')
